@@ -14,7 +14,7 @@ for (root,   folder, files) in os.walk("Apps"):
 
 # Create the text for the batfile based on the list above
 for appnames in f:
-	batfile = batfile + ("start /wait Apps\\\""  + appnames + "\"/SILENT \n") 
+	batfile = batfile + ("start /wait Apps\\\""  + appnames + "\" /SILENT \n") 
 
 # Write to bat file
 newfile = open("Installation command.bat","w") 
