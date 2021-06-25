@@ -1,0 +1,5 @@
+try setup.exe /a to see if it performs an admin install.
+
+try setup.exe /S
+
+try setup.exe /SILENT
